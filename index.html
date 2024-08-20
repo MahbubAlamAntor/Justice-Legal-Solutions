@@ -228,7 +228,7 @@
         <!-- What Our Client Say section end -->
 
         <!-- Frequently Asked Any Questions section start -->
-        <section>
+        <section class="mb-24">
             <div class="text-center">
                 <h3 class="text-4xl font-semibold">Frequently Asked Any Questions</h3>
                 <p class="text-xl md:w-2/4 mx-auto pt-6">There are many variations of passages of Lorem Ipsum available,
@@ -290,42 +290,38 @@
                         available,
                         but the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
-                <div class="grid grid-cols-2 gap-6 items-center pt-16">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center pt-16">
                     <div class="grid grid-cols-2">
-                        <div class="card p-7 bg-bg-color-wh rounded-none border-b border-gray-300">
+                        <div class="card max-sm:p-0 p-7 bg-bg-color-wh rounded-none border-b border-gray-300">
                             <figure class="px-10 pt-10">
-                                <img src="./images/location.png"
-                                    alt="Shoes" class="rounded-xl" />
+                                <img src="./images/location.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="text-2xl font-bold">Address</h2>
                                 <p class="text-xl pt-3">A108 Adam Street, <br> New York, NY 535022</p>
                             </div>
                         </div>
-                        <div class="card p-7 bg-bg-color-wh rounded-none border-l border-b border-gray-300">
+                        <div class="card max-sm:p-0 p-7 bg-bg-color-wh rounded-none border-l border-b border-gray-300">
                             <figure class="px-10 pt-10">
-                                <img src="./images/call.png"
-                                    alt="Shoes" class="rounded-xl" />
+                                <img src="./images/call.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="text-2xl font-bold">Call Us</h2>
                                 <p class="text-xl pt-3">+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
                             </div>
                         </div>
-                        <div class="card p-7 bg-bg-color-wh rounded-none border-r border-gray-300">
+                        <div class="card max-sm:p-0 p-7 bg-bg-color-wh rounded-none border-r border-gray-300">
                             <figure class="px-10 pt-10">
-                                <img src="./images/email.png"
-                                    alt="Shoes" class="rounded-xl" />
+                                <img src="./images/email.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="text-2xl font-bold">Email Us</h2>
                                 <p class="text-xl pt-3">info@gmail.com <br>info@gmail.com</p>
                             </div>
                         </div>
-                        <div class="card p-7 bg-bg-color-wh rounded-none">
+                        <div class="card max-sm:p-0 p-7 bg-bg-color-wh rounded-none">
                             <figure class="px-10 pt-10">
-                                <img src="./images/time.png"
-                                    alt="Shoes" class="rounded-xl" />
+                                <img src="./images/time.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <h2 class="text-2xl font-bold">Working Hours</h2>
@@ -334,10 +330,14 @@
                         </div>
                     </div>
                     <div class="space-y-7">
-                        <input type="text" placeholder="Your Name" class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
-                        <input type="text" placeholder="Your Email" class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
-                        <input type="text" placeholder="Subject" class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
-                        <textarea class="textarea text-xl font-medium textarea-bordered h-48 w-full" placeholder="Your Message"></textarea>
+                        <input type="text" placeholder="Your Name"
+                            class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
+                        <input type="text" placeholder="Your Email"
+                            class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
+                        <input type="text" placeholder="Subject"
+                            class="input text-xl font-medium bg-bg-color-wh border-none outline-none input-bordered h-20 w-full" />
+                        <textarea class="textarea text-xl font-medium textarea-bordered h-48 w-full"
+                            placeholder="Your Message"></textarea>
                         <button class="btn bg-btn-color w-full h-16 text-white font-bold text-xl">Secondary</button>
                     </div>
                 </div>
@@ -347,9 +347,41 @@
     </main>
     <!-- main section end -->
     <!-- footer start -->
-     <footer>
-        
-     </footer>
+    <footer class="bg-black">
+        <div class="grid grid-cols-4 gap-10 container mx-auto py-24">
+            <div>
+                <img src="./images/logo.png" alt="">
+                <p class="pt-7 text-gray-200 text-xl">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <nav>
+                <h6 class="font-bold text-2xl text-white">Usefull Link</h6>
+                <div class="flex flex-col text-gray-200 pt-10 space-y-4">
+                    <a class="link link-hover">Homes</a>
+                    <a class="link link-hover">About Us</a>
+                    <a class="link link-hover">Cases</a>
+                    <a class="link link-hover">Blog</a>
+                    <a class="link link-hover">Contact Us</a>
+                </div>
+            </nav>
+            <nav>
+                <h6 class="text-2xl text-white font-bold">Contact Now</h6>
+                <div class="flex flex-col pt-10 space-y-4 text-gray-200">
+                    <a class="link link-hover">555 4th 5t NW, Washington <br> DC 20530, United States</a>
+                    <a class="link link-hover">+88 01750 000 000 <br>+88 01750 000 000</a>
+                    <a class="link link-hover">info@gmail.com <br>info@gmail.com</a>
+                </div>
+            </nav>
+            <nav class="">
+                <h6 class="font-bold text-2xl text-white">Subscribe</h6>
+                <p class="text-gray-200 pt-8">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <div class="relative pt-5">
+                    <input type="text" placeholder="Email Address" class="w-full h-11 rounded-lg pl-5"><button
+                        class="absolute bottom-0-0 right-0 text-white h-11 w-12 bg-btn-color rounded-lg"><i class="fa-regular fa-paper-plane"></i></button>
+                </div>
+            </nav>
+        </div>
+    </footer>
     <!-- footer end -->
 </body>
 
